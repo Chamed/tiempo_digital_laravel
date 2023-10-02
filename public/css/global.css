@@ -1,0 +1,21 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-color: #2D3047 !important;
+}
+
+.toast {
+    position: absolute;
+    z-index: 9999;
+}
+
+.btn-primary:hover {
+    background-color: #2D3047;
+}

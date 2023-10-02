@@ -1,0 +1,15 @@
+.form-container {
+  background-color: #F1F0EA;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.main-content {
+  height: 100%;
+}
+
+#nameContainer,
+#lastNameContainer,
+#confirmPassContainer {
+  display: none;
+}

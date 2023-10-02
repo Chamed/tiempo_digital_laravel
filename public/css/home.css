@@ -1,0 +1,89 @@
+.background {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  background-color: #403f4c;
+  transition: width 2s ease-in;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.menu:hover * .hidden {
+  display: flex;
+}
+
+.round-white-div {
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.list-wrapper {
+  border: 2px solid #5E5D6F;
+  border-radius: 10px;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 10px 15px 10px;
+}
+
+.book-wrapper {
+  border: 2px solid #5E5D6F;
+  border-radius: 10px;
+}
+
+.list-info {
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.divider {
+  color: #fff;
+  margin: 15px 10px 0px 10px;
+  border-width: 2px;
+}
+
+.child {
+  flex: 1;
+}
+
+.book-thumb {
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.book-thumb-dynamic {
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+#gravatar {
+  border-radius: 25%;
+  border: 2px solid white;
+}
+
+#username {
+  color: #fff;
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-data span {
+  margin-bottom: 10px;
+}
